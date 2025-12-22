@@ -1,37 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Royal Touch | Business Analytics</title>
+  <meta charset="UTF-8">
+  <title>Royal Touch Analytics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+    header {
+      background: #0a2540;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #133b63;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #0a2540;
+    }
+    .services, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #eef2f7;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    footer {
+      background: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  </style>
 </head>
+
 <body>
 
+<header>
   <h1>Royal Touch Analytics</h1>
-  <p>Business Analytics Student Portfolio</p>
+  <p>Data • Insights • Growth</p>
+</header>
 
-  <h2>About Me</h2>
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Us</h2>
   <p>
-    I am a Business Analytics student with skills in data analysis,
-    visualization, and financial reporting.
+    Royal Touch Analytics is a data-driven business analytics service providing
+    insights through data analysis, visualization, and financial reporting.
+    We help businesses make informed decisions using data.
   </p>
+</section>
 
-  <h2>Skills</h2>
-  <ul>
-    <li>Excel</li>
-    <li>Power BI</li>
-    <li>SQL</li>
-    <li>Sage 50 Accounting</li>
-    <li>Microsoft Access</li>
-  </ul>
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Data Analysis</h3>
+      <p>Excel, SQL, and statistical analysis to uncover trends.</p>
+    </div>
+    <div class="card">
+      <h3>Data Visualization</h3>
+      <p>Interactive dashboards using Power BI.</p>
+    </div>
+    <div class="card">
+      <h3>Financial Analysis</h3>
+      <p>Profit & Loss, Cash Flow, and business performance analysis.</p>
+    </div>
+  </div>
+</section>
 
+<section id="projects">
   <h2>Projects</h2>
-  <ul>
-    <li>Sales Performance Dashboard</li>
-    <li>Customer Segmentation Analysis</li>
-    <li>Profit & Loss Analysis</li>
-  </ul>
+  <div class="projects">
+    <div class="card">
+      <h3>Sales Dashboard</h3>
+      <img src="images/sales-dashboard.png" alt="Sales Dashboard">
+    </div>
+    <div class="card">
+      <h3>Customer Segmentation</h3>
+      <img src="images/customer-segmentation.png" alt="Customer Segmentation">
+    </div>
+    <div class="card">
+      <h3>Financial Performance</h3>
+      <img src="images/financial-analysis.png" alt="Financial Analysis">
+    </div>
+  </div>
+</section>
 
-  <h2>Contact</+919666767353/+263771063048>
-  <p>Email: your@email.com</bandatichaona7@gmail.com>
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: info@royaltouchanalytics.com</p>
+  <p>Phone: +263 XXX XXX XXX</p>
+</section>
+
+<footer>
+  <p>© 2025 Royal Touch Analytics. All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>
+
