@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <meta charset="UTF-8">
   <img src="images/logo.png" alt="Royal Touch Analytics Logo" width="120">
 <h1>Royal Touch Analytics</h1>
@@ -13,11 +15,12 @@
       color: #333;
     }
     header {
-      background: #0a2540;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
+  <header>
+  <img src="images/logo.png" alt="Royal Touch Analytics Logo" width="110">
+  <h1>Royal Touch Analytics</h1>
+  <p><i class="fa-solid fa-chart-line"></i> Data • Insights • Growth</p>
+</header>
+
     nav {
       background: #133b63;
       padding: 10px;
@@ -64,7 +67,33 @@
       max-width: 100%;
       border-radius: 8px;
     }
-  </style>
+  </style>html {
+  scroll-behavior: smooth;
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+section {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 </head>
 
 <body>
@@ -104,38 +133,39 @@
 
   <div class="services">
     <div class="card">
-      <h3>Data Analysis</h3>
+      <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Data Analysis</h3>
       <p>
         We analyze business data using Excel, SQL, and statistical methods
-        to identify trends, patterns, and performance gaps.
+        to identify trends and performance gaps.
       </p>
     </div>
 
     <div class="card">
-      <h3>Data Visualization</h3>
+      <h3><i class="fa-solid fa-chart-pie"></i> Data Visualization</h3>
       <p>
-        We design interactive and easy-to-understand dashboards using Power BI
-        to support data-driven decision-making.
+        Interactive Power BI dashboards that transform data
+        into clear and actionable insights.
       </p>
     </div>
 
     <div class="card">
-      <h3>Financial Analysis</h3>
+      <h3><i class="fa-solid fa-coins"></i> Financial Analysis</h3>
       <p>
-        We provide Profit & Loss analysis, Cash Flow analysis, budgeting,
-        and financial performance reporting.Application of accounting tools like Sage 50 Accounting for financial bookkeeping.
+        Profit & Loss analysis, Cash Flow analysis,
+        budgeting, and financial performance reviews.
       </p>
     </div>
 
     <div class="card">
-      <h3>Business Reporting</h3>
+      <h3><i class="fa-solid fa-file-lines"></i> Business Reporting</h3>
       <p>
-        We create professional business reports and presentations
-        for management and stakeholders.
+        Professional management reports and presentations
+        for decision-makers.
       </p>
     </div>
   </div>
 </section>
+
 
 
 <section id="projects">
@@ -175,17 +205,24 @@
 <section id="contact">
   <h2>Contact Us</h2>
 
-  <p><strong>Email:</strong> royaltouch2585@gmail.com</p>
-  <p><strong>Phone:</strong> +263 771 063 048 /+91 96667 67353</p>
-  <p><strong>Location:</strong> Zimbabwe</p>
+  <p><i class="fa-solid fa-envelope"></i> royaltouch2585@gmail.com</p>
+  <p><i class="fa-solid fa-phone"></i> +263 771 063 048 /+91 96667 67353</p>
+  <p><i class="fa-solid fa-location-dot"></i> Zimbabwe</p>
 
   <p>
-    We are available for freelance projects, consulting,
-    and long-term business analytics support.
-    Royal Touch at your service .
+    Available for freelance work, consulting,
+    and long-term analytics partnerships.
   </p>
 </section>
 
+
+<section>
+  <h2>Let’s Work Together</h2>
+  <p>
+    Looking to improve your business performance with data?
+    Contact Royal Touch Analytics today.
+  </p>
+</section>
 
 <footer>
   <p>© 2025 Royal Touch Analytics. All Rights Reserved.</p>
