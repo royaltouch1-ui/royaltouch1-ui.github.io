@@ -3,35 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <title>Royal Touch Analytics</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a2540;
+      color: white;
+      padding: 20px 40px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 50px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #0a2540;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #0a2540;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>Royal Touch Analytics</h1>
-  <p>Turning Data into Business Insights</p>
+<header>
+  <nav>
+    <h1>Royal Touch Analytics</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-  <hr>
-
+<section id="about">
   <h2>About Us</h2>
   <p>
-    Royal Touch Analytics is a business analytics service focused on
-    data analysis, visualization, and financial insights to support
-    better decision-making.
+    Royal Touch Analytics is a business analytics company that helps
+    organizations transform data into insights for smarter decisions.
   </p>
+</section>
 
-  <h2>Services</h2>
-  <ul>
-    <li>Data Analysis</li>
-    <li>Data Visualization</li>
-    <li>Financial Analysis</li>
-    <li>Business Reporting</li>
-  </ul>
+<section id="services">
+  <h2>Our Services</h2>
 
+  <div class="services">
+    <div class="card">
+      <h3>Data Analysis</h3>
+      <p>Analyzing data using Excel, SQL, and statistical techniques.</p>
+    </div>
+
+    <div class="card">
+      <h3>Data Visualization</h3>
+      <p>Interactive dashboards and reports using Power BI.</p>
+    </div>
+
+    <div class="card">
+      <h3>Financial Analysis</h3>
+      <p>Profit & Loss, cash flow, and financial performance analysis.</p>
+    </div>
+
+    <div class="card">
+      <h3>Business Reporting</h3>
+      <p>Professional reports for management and stakeholders.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
   <h2>Projects</h2>
-  <p>Projects will be added here.</p>
+  <p>Project examples will be added here.</p>
+</section>
 
+<section id="contact">
   <h2>Contact</h2>
   <p>Email: info@royaltouchanalytics.com</p>
+</section>
+
+<footer>
+  <p>© 2025 Royal Touch Analytics</p>
+</footer>
 
 </body>
 </html>
